@@ -1,26 +1,26 @@
+
+
+// "profiles": [
+//   {
+//     "network": "Twitter",
+//     "username": "AlbertEinstein",
+//     "url": "https://twitter.com/AlbertEinstein"
+//   }
+// ]
+
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Kevin Tan",
+    "label": "PhD. Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kevtan@wharton.upenn.edu",
+    "url": "https://hetankevin.github.io",
+    "summary": "PhD. Student at Wharton Statistics and Data Science, graduating in 2027. Applied scientist intern at Amazon. ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "region": "Pennsylvania"
+    }
   },
   "work": [
     {
