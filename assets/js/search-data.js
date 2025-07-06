@@ -25,33 +25,12 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/al-folio/https:/drive.google.com/file/d/13GhN8nKNesxdFnUMSMkBiysf4CiwLGfK/view?usp=share_link";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -397,16 +376,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-two-papers-accepted-to-neurips-2024-these-are-on-how-hybrid-rl-can-break-sample-size-barriers-in-linear-mdps-and-solving-distributed-least-squares-problems-in-small-space-with-randomized-algorithms-for-matrix-sketching-i-ve-also-received-the-neurips-travel-award",
+          title: 'Two papers accepted to NeurIPS 2024! These are on how hybrid RL can...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-two-papers-accepted-to-icml-2025-these-are-on-leveraging-offline-data-in-linear-latent-bandits-and-on-how-actor-critics-can-achieve-optimal-sample-efficiency-spending-too-much-time-writing-reviews-paid-off-i-ve-received-a-top-reviewer-award-with-complimentary-registration",
+          title: 'Two papers accepted to ICML 2025! These are on leveraging offline data in...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-ve-started-an-internship-at-amazon-as-an-applied-scientist-intern",
+          title: 'I’ve started an internship at Amazon as an Applied Scientist intern.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
