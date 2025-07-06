@@ -117,7 +117,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: hetankevin # put your disqus shortname
+disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -146,13 +146,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
     output: true
   projects:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -206,7 +206,6 @@ plugins:
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
-  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
@@ -216,6 +215,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-minifier
 
 # Sitemap settings
 defaults:
@@ -627,8 +627,8 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+  - data: assets/pdf/kevinresumejun2025.pdf
+    json: assets/json/kevinresumejun2025.pdf # it can also be an url
 
 jsonresume:
   - basics
