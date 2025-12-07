@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https:/drive.google.com/file/d/13GhN8nKNesxdFnUMSMkBiysf4CiwLGfK/view?usp=share_link";
+            window.location.href = "/https:/drive.google.com/file/d/1pa6lwOy3OpbNb0YpFXlsIPxkQOgATFmj/view?usp=sharing";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -380,10 +380,16 @@ ninja.data = [{
           title: 'Two papers accepted to NeurIPS 2024! These are on how hybrid RL can...',
           description: "",
           section: "News",},{id: "news-two-papers-accepted-to-icml-2025-these-are-on-leveraging-offline-data-in-linear-latent-bandits-and-on-how-actor-critics-can-achieve-optimal-sample-efficiency-spending-too-much-time-writing-reviews-paid-off-i-ve-received-a-top-reviewer-award-with-complimentary-registration",
-          title: 'Two papers accepted to ICML 2025! These are on leveraging offline data in...',
+          title: 'Two papers accepted to ICML 2025. These are on leveraging offline data in...',
           description: "",
-          section: "News",},{id: "news-i-ve-started-an-internship-at-amazon-as-an-applied-scientist-intern",
-          title: 'I’ve started an internship at Amazon as an Applied Scientist intern.',
+          section: "News",},{id: "news-i-ve-accepted-an-offer-to-join-the-machine-learning-research-team-at-susquehanna-international-group-over-summer-2026",
+          title: 'I’ve accepted an offer to join the machine learning research team at Susquehanna...',
+          description: "",
+          section: "News",},{id: "news-one-paper-accepted-to-neurips-2025-on-statistical-inference-for-gradient-boosting-regression-i-ve-once-again-received-a-top-reviewer-award-with-complimentary-registration",
+          title: 'One paper accepted to NeurIPS 2025 on statistical inference for gradient boosting regression....',
+          description: "",
+          section: "News",},{id: "news-i-m-almost-done-with-a-6-month-internship-at-amazon-as-an-applied-scientist-intern-my-team-very-generously-intends-to-have-me-continue-working-with-them-on-a-part-time-basis-through-the-rest-of-my-phd-during-the-school-year-this-very-conveniently-helps-with-student-funding-at-my-department-which-we-re-all-very-grateful-for",
+          title: 'I’m almost done with a 6-month internship at Amazon as an Applied Scientist...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
